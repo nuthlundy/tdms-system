@@ -1102,7 +1102,7 @@ if (
         const data = DataStore.getData();
         mainContent.innerHTML = `
             <div class="page-header">
-                <h2>Training Needs Analysis (TNA)</h2>
+                <h2>Training Needs Assessment (TNA)</h2>
                 <p>Analyze training requirements by department</p>
             </div>
             <div class="card">
