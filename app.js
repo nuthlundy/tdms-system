@@ -774,7 +774,10 @@ if (window.location.pathname.includes('login.html')) {
 }
 
 // ==================== MAIN APP LOGIC ====================
-if (window.location.pathname.includes('index.html')) {
+if (
+    window.location.pathname.includes('index.html') ||
+    window.location.pathname === '/'
+) {
     if (!Auth.checkAuth()) {
         window.location.href = 'login.html';
     }
